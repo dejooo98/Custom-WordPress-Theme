@@ -1,0 +1,144 @@
+.footer-details {
+  max-width: 25rem;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: none;
+    margin: {
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    padding-bottom: 0;
+  }
+  > a {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  > p {
+    color: #979CA7;
+    font-size: 1rem;
+    line-height: 2.25;
+    @include media-breakpoint-up(md) {
+      max-width: 15rem;
+    }
+  }
+}
+
+.footer-links,
+.footer-start {
+  margin-bottom: 2rem;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 0;
+  }
+  > h3 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 1.2px;
+    line-height: 3.214;
+    margin-top: 0;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 0;
+    }
+  }
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: .625rem 0 0 0;
+    > li {
+      a {
+        color: #979CA7;
+        font-size: 0.875rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 2.57;
+        letter-spacing: 1.4px;
+        transition: color .2s ease-in-out;
+        &:hover,
+        &:active {
+          color: #0062B8;
+        }
+      }
+    }
+  }
+}
+
+.footer-social {
+  > h3 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 1.2px;
+    line-height: 3.214;
+  }
+  > ul {
+    padding-top: 1rem;
+    > li {
+      margin-right: 1.25rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.footer-content {
+  border: {
+    top: 1px solid #E1E1E1;
+    bottom: 1px solid #E1E1E1;
+  }
+  padding: {
+   top: 2.5rem;
+    bottom: 1.875rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 5rem;
+      bottom: 1.875rem;
+    }
+  }
+}
+
+.footer-copy {
+  padding: {
+    top: 1.125rem;
+    bottom: 1.875rem;
+  }
+}
+
+.copyright {
+  > p {
+    color: #ABABAB;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
+
+.terms {
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 0;
+  }
+  > ul {
+    > li {
+      margin-left: 1.875rem;
+      a {
+        color: #ABABAB;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.71;
+        text-decoration: none;
+        transition: color .2s ease-in-out;
+        &:hover,
+        &:active {
+          color: #0062B8;
+        }
+      }
+    }
+  }
+}

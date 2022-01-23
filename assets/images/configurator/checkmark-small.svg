@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="89.93663%" y1="5.36763071%" x2="7.29215241%" y2="94.4308663%" id="linearGradient-1">
+            <stop stop-color="#0076CC" offset="0.0397795564%"></stop>
+            <stop stop-color="#05B4E8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Configurator-3" transform="translate(-880.000000, -781.000000)" fill="url(#linearGradient-1)">
+            <g id="Group" transform="translate(780.000000, 420.000000)">
+                <g id="Group-6-Copy-4" transform="translate(0.000000, 213.000000)">
+                    <g id="Group-24" transform="translate(0.000000, 124.000000)">
+                        <g id="checkmark-circle-svgrepo-com" transform="translate(100.000000, 24.000000)">
+                            <path d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 Z M14.3169417,6.80805825 C14.0891359,6.5802524 13.7292257,6.56506535 13.4838059,6.7624971 L13.4330582,6.80805825 L8.375,11.8661165 L6.56694175,10.0580583 C6.32286405,9.8139806 5.92713595,9.8139806 5.68305825,10.0580583 C5.4552524,10.2858641 5.44006535,10.6457743 5.6374971,10.891194 L5.68305825,10.9419417 L7.93305825,13.1919417 C8.1608641,13.4197476 8.5207743,13.4349347 8.76619405,13.2375029 L8.81694175,13.1919417 L14.3169417,7.69194175 C14.5610194,7.44786405 14.5610194,7.05213595 14.3169417,6.80805825 Z" id="🎨-Color"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

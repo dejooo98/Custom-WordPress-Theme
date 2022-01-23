@@ -1,0 +1,345 @@
+.blogs-header {
+  border-bottom: 1px dashed #E1E1E1;
+  text-align: center;
+  padding: {
+    top: 4.625rem;
+    bottom: 3.25rem;
+  }
+  position: relative;
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 8.625rem;
+      bottom: 6.25rem;
+    }
+  }
+  h2 {
+    color: #2C2C2C;
+    margin-bottom: 1.25rem;
+  }
+  p {
+    color: #8A8A8A;
+  }
+}
+
+.blog-header__deco1 {
+  position: absolute;
+  left: -4.9375rem;
+  bottom: 1.875rem;
+}
+
+.blog-header__deco2 {
+  position: absolute;
+  right: -4.3rem;
+  bottom: 1.875rem;
+}
+
+.blogs-header__content {
+  max-width: 45rem;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+.blogs-content {
+  padding: {
+    top: 3.375rem;
+    bottom: 4.3125rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 4.375rem;
+      bottom: 10.3125rem;
+    }
+  }
+}
+
+.blogs-section {
+  max-width: 25rem;
+  margin: {
+    left: auto;
+    right: auto;
+  };
+  @include media-breakpoint-up(sm) {
+    max-width: none;
+    margin: {
+      left: 0;
+      right: 0;
+    }
+    flex: 1 1 auto;
+  }
+}
+
+.blogs-sidebar {
+  max-width: 25rem;
+  margin: {
+    left: auto;
+    right: auto;
+    bottom: 1.875rem;
+  };
+  @include media-breakpoint-up(sm) {
+    max-width: none;
+    margin: {
+      left: 0;
+      right: 0;
+      bottom: 0;
+    };
+    flex: 0 0 18.75rem;
+    max-width: 18.75rem;
+    padding-left: 1.5rem;
+  }
+  @include media-breakpoint-up(lg) {
+    flex: 0 0 20.75rem;
+    max-width: 20.75rem;
+    padding-left: 2.0rem;
+  }
+  @include media-breakpoint-up(lg) {
+    flex: 0 0 23.75rem;
+    max-width: 23.75rem;
+    padding-left: 2.5rem;
+  }
+}
+
+.blogs-article {
+  margin-bottom: 3.125rem;
+  padding-bottom: 1.875rem;
+  position: relative;
+}
+
+.blogs-article__image {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 1.475rem;
+  @include media-breakpoint-up(md) {
+    padding-bottom: 1.875rem;
+
+  }
+}
+
+.blogs-article__content {
+  > span {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.17;
+    @include media-breakpoint-up(lg) {
+      font-size: 1.125rem;
+    }
+  }
+  > h1 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.4615;
+    max-width: 41.625rem;
+    margin: {
+      top: 1rem;
+      bottom: 1rem;
+    };
+    @include media-breakpoint-up(lg) {
+      font-size: 1.625rem;
+      margin: {
+        top: 1.25rem;
+        bottom: 1.25rem;
+      };
+    }
+    > a {
+      color: #000000;
+      text-decoration: none;
+      transition: color .2s ease-in-out;
+      &:hover,
+      &:active {
+        color: #0062B8;
+      }
+    }
+  }
+  > a {
+    color: #017DCF;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0.9375rem;
+    > span {
+      margin-left: .15rem;
+      display: inline-block;
+      vertical-align: middle;
+      > svg {
+        vertical-align: baseline;
+      }
+    }
+  }
+}
+
+.blogs-pagination {
+  padding-top: 1.625rem;
+  @include media-breakpoint-up(sm) {
+    padding-top: 2.625rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 5.625rem;
+  }
+  .pagination {
+    justify-content: center;
+    @include media-breakpoint-up(md) {
+      justify-content: start;
+    }
+    .page-item {
+      margin-right: 0.625rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .page-link {
+    border-radius: 0.125rem;
+    color: #8A8A8A;
+    font-size: 0.875rem;
+  }
+}
+
+.blogs-category {
+  border: 1px solid #D0D0D0;
+  border-radius: 0.625rem;
+  padding: 2.1875rem 1.875rem 3.375rem 1.875rem;
+  margin-bottom: 1.5625rem;
+  h3 {
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.9375rem;
+  }
+}
+
+.blogs-search {
+  padding-bottom: 1.5625rem;
+  input {
+    font-size: 1rem;
+    line-height: 1.1875;
+    border: 1px solid #D0D0D0;
+    border-radius: .25rem;
+    display: block;
+    width: 100%;
+    padding: 0.9375rem 0.9375rem 0.9375rem 2.6875rem;
+    background: url(../../assets/images/blogs/search.png) no-repeat 0.8125rem center;
+    transition: border-color .2s ease-in-out;
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #A2A4AA;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #A2A4AA;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #A2A4AA;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #A2A4AA;
+    }
+    &:focus {
+      border-color: $primary;
+      outline: none;
+    }
+  }
+}
+
+.blogs-categories {
+  border-top: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+  padding: {
+    top: 1.5625rem;
+    bottom: 1.5625rem;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    > li {
+      > a {
+        color: #8A8A8A;
+        font-size: 1rem;
+        line-height: 2.125;
+        text-decoration: none;
+        transition: color .2s ease-in-out;
+        &:hover,
+        &:active {
+          color: #0062B5;
+        }
+        > span {
+          display: inline-block;
+          min-width: 8.375rem;
+        }
+      }
+    }
+  }
+}
+
+.blogs-social {
+  padding-top: 1.5625rem;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    > li {
+      margin-right: 1.25rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.blogs-newsletter {
+  border: 1px solid #D0D0D0;
+  border-radius: 0.625rem;
+  padding: 2.1875rem 1.875rem;
+  h3 {
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.9375rem;
+  }
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  input {
+    font-size: 1rem;
+    line-height: 1.1875;
+    border: 1px solid #D0D0D0;
+    border-radius: .25rem;
+    display: block;
+    width: 100%;
+    padding: 0.9375rem 3.6875rem 0.9375rem 0.9375rem;
+    transition: border-color .2s ease-in-out;
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #A2A4AA;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #A2A4AA;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #A2A4AA;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #A2A4AA;
+    }
+    &:focus {
+      border-color: $primary;
+      outline: none;
+    }
+  }
+  button {
+    background-color: rgba(#017DCF, .1);
+    display: inline-block;
+    min-width: auto;
+    padding: 0.7rem 1rem;
+    position: absolute;
+    right: 7px;
+    bottom: 6px;
+  }
+}
+
+.blogs-newsletter__input {
+  position: relative;
+}
+

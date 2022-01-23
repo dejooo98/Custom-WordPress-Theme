@@ -1,0 +1,68 @@
+.impressum-article {
+  padding: {
+    top: 4.6875rem;
+    bottom: 3.0625rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 8.125rem;
+      bottom: 6.0625rem;
+    }
+  }
+}
+
+.impressum-header {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px dashed #E1E1E1;
+  h1 {
+    font-size: 2.125rem;
+    font-weight: 600;
+    line-height: 1.4285;
+    @include media-breakpoint-up(md) {
+      font-size: 2.625rem;
+    }
+  }
+}
+
+.impressum-content {
+  padding-top: 3.625rem;
+  @include media-breakpoint-up(md) {
+    padding-top: 5.625rem;
+  }
+  max-width: 46.25rem;
+  h3 {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 1.461;
+    margin-bottom: 1.25rem;
+  }
+  p {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.777;
+    margin: 0;
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
+  }
+  a {
+    color: #0062B8;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.777;
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
+  }
+  ul {
+    padding-left: 1.25rem;
+  }
+  li {
+    font-size: 1rem;
+    line-height: 1.778;
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
+  }
+}

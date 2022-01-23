@@ -1,0 +1,164 @@
+// Our advantages
+.advantages {
+  padding: {
+    top: 4.0625rem;
+    bottom: 5rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 8.125rem;
+      bottom: 10rem;
+    }
+  }
+}
+
+.advantages-header {
+  h2 {
+    margin-bottom: 0;
+  }
+  max-width: 40rem;
+  padding-bottom: 5.625rem;
+}
+
+.our-advantages {
+  padding: {
+    top: 3.4375rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 6.875rem;
+    }
+  }
+}
+
+.advantages-articles {
+  text-align: center;
+  padding: {
+    top: 3.125rem;
+  }
+  @include media-breakpoint-up(md) {
+    text-align: left;
+    padding: {
+      top: 6.25rem;
+    }
+  }
+}
+
+.advantages-article {
+  max-width: 28.125rem;
+  margin-bottom: 3.75rem;
+  height: 100%;
+  h3 {
+    color: #000000;
+    font-size: 1.375rem;
+    line-height: 1.45;
+    margin: {
+      top: 1.25rem;
+      bottom: 1rem;
+    }
+  }
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.777;
+  }
+}
+
+.advantages-work {
+  background-color: rgba(#388AF7, .04);
+  padding: {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 5rem;
+      bottom: 5rem;
+    }
+  }
+}
+
+.advantages-work__wrap {
+  max-width: 55.625rem;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  > h2 {
+    text-align: center;
+  }
+}
+
+
+.advantages-work__container {
+  padding: {
+    top: 2.2813rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 4.5625rem;
+    }
+  }
+  > p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    text-align: center;
+  }
+}
+
+.advantages-work__timeline {
+  position: relative;
+  padding-bottom: 1.40625rem;
+  @include media-breakpoint-up(md) {
+    padding-bottom: 2.8125rem;
+  }
+  > .row {
+    position: relative;
+    z-index: 2;
+  }
+  article {
+    height: 100%;
+    text-align: center;
+    h3 {
+      color: #000000;
+      font-size: 1.375rem;
+      font-weight: 600;
+      line-height: 1.4545;
+      margin-top: 1.3125rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.advantages-timeline__deco {
+  position: absolute;
+  border-top: 1px dashed #E1E1E1;
+  left: 12%;
+  right: 12%;
+  top: 2.625rem;
+  z-index: 1;
+}
+
+.advantages-about {
+  padding: {
+    top: 3.4375rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 6.875rem;
+    }
+  }
+}
+
+.advantages-about__article {
+  h2 {
+    margin-bottom: 1.5625rem;
+  }
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.875;
+    margin-bottom: 1.25rem;
+  }
+}

@@ -1,0 +1,210 @@
+// Our advantages
+.banks {
+  padding: {
+    top: 4.0625rem;
+    bottom: 5rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 8.125rem;
+      bottom: 10rem;
+    }
+  }
+}
+
+.banks-header {
+  h2 {
+    margin-bottom: 0;
+  }
+  max-width: 40rem;
+  padding-bottom: 5.625rem;
+}
+
+.banks-flow {
+  background-color: rgba(#388AF7, .04);
+  padding: {
+    top: 2.5rem;
+    bottom: 2.5rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 5rem;
+      bottom: 5rem;
+    }
+  }
+}
+
+.banks-content {
+  padding: {
+    top: 5rem;
+    bottom: 3rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 10.1875rem;
+      bottom: 6.375rem;
+    }
+  }
+  .container-xl {
+    > h2 {
+      margin-bottom: 0.9375rem;
+    }
+    > p {
+      color: #8A8A8A;
+      line-height: 1.778;
+    }
+  }
+}
+
+.banks-content__article {
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.875;
+    margin-bottom: 0.9375rem;
+  }
+  > div {
+    &:first-child {
+      img {
+        height: auto;
+        max-width: 100%;
+      }
+      margin-bottom: 2.5rem;
+      @include media-breakpoint-up(md) {
+        flex: 0 0 43%;
+        max-width: 43%;
+        margin-bottom: 0;
+      }
+    }
+    &:last-child {
+      @include media-breakpoint-up(md) {
+        padding-left: 5.625rem;
+        flex: 0 0 57%;
+        max-width: 57%;
+      }
+    }
+  }
+}
+
+.banks-flow__wrap {
+  max-width: 60rem;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  > h2 {
+    text-align: center;
+  }
+}
+
+
+.banks-flow__container {
+  padding: {
+    top: 2.2813rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 4.5625rem;
+    }
+  }
+  > p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    text-align: center;
+  }
+}
+
+.banks-flow__timeline {
+  position: relative;
+  padding-bottom: 1.40625rem;
+  @include media-breakpoint-up(md) {
+    padding-bottom: 2.8125rem;
+  }
+  > .row {
+    position: relative;
+    z-index: 2;
+  }
+  article {
+    height: 100%;
+    text-align: center;
+    h3 {
+      color: #000000;
+      font-size: 1.375rem;
+      font-weight: 600;
+      line-height: 1.4545;
+      margin-top: 1.3125rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.banks-timeline__deco {
+  position: absolute;
+  border-top: 1px dashed #E1E1E1;
+  left: 12%;
+  right: 12%;
+  top: 2.625rem;
+  z-index: 1;
+}
+
+.banks-articles {
+  padding-top: 3.125rem;
+  @include media-breakpoint-up(md) {
+    padding-top: 6.25rem;
+  }
+}
+
+.banks-article {
+  margin-bottom: 5rem;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.875;
+    margin-bottom: 0.9375rem;
+  }
+}
+
+.banks-article__image {
+  text-align: center;
+  margin-bottom: 2rem;
+  @include media-breakpoint-up(md) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 3.125rem;
+    text-align: left;
+  }
+  &.order-md-2 {
+    @include media-breakpoint-up(md) {
+      padding-right: 0;
+      padding-left: 3.125rem;
+    }
+  }
+}
+
+.banks-article__content {
+  @include media-breakpoint-up(md) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 3.125rem;
+  }
+  &.order-md-1 {
+    @include media-breakpoint-up(md) {
+      padding-left: 0;
+      padding-right: 3.125rem;
+    }
+  }
+  > div {
+    max-width: 33.75rem;
+    margin: {
+      left: auto;
+      right: auto;
+    };
+  }
+}

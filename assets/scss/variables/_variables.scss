@@ -1,0 +1,60 @@
+// Color override
+$theme-colors: (
+        "primary": #039DDD
+);
+
+$primary: #039DDD;
+$black: #000000;
+$text-color: #8A8A8A;
+$link-color: #0062B8;
+
+// Fonts
+$font-family-sans-serif: 'Gilroy', sans-serif;
+$font-weight-normal: 500;
+$line-height-base: 1.78;
+$font-size-lg: 1.125rem;
+
+$h1-mobile-font-size: 2.625rem;
+$h2-mobile-font-size: 2rem;
+$h3-mobile-font-size: 1.125rem;
+
+$h1-tablet-font-size: 3.125rem;
+
+$h1-font-size: 3.75rem;
+$h2-font-size: 2.625rem;
+$h3-font-size: 1.5rem;
+
+// Buttons
+$btn-font-weight: 600;
+$btn-font-family: 'Gilroy', sans-serif;
+$btn-font-size: 0.75rem;
+$btn-border-radius: 0.25rem;
+$btn-padding-y: 1.0625rem;
+$btn-padding-x: 1.5625rem;
+$btn-font-weight: 700;
+$btn-line-height: 1.17;
+
+// Tables
+$table-color: #8A8A8A;
+$table-cell-padding: 1.125rem;
+$table-accent-bg: rgba(#388AF7, .04) !default;
+$table-border-color: #DADADA;
+$table-dark-accent-bg: white;
+
+// Pagination
+$pagination-padding-y: 0.75rem;
+$pagination-padding-x: 1.125rem;
+$pagination-border-color: #D0D0D0;
+$pagination-active-border-color: #D0D0D0;
+$pagination-active-color: #039DDD;
+$pagination-active-bg: transparent;
+
+// Forms
+$input-padding-y: 0.8125rem;
+$input-padding-x: 0.625rem;
+$input-border-color: #D0D0D0;
+$input-height: auto;
+$input-line-height: 1.1875;
+$input-font-weight: 600;
+$input-color:  #000000;
+

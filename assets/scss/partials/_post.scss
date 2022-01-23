@@ -1,0 +1,135 @@
+.post-article {
+  padding: {
+    top: 4.6875rem;
+    bottom: 3rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 8.125rem;
+      bottom: 6.0625rem;
+    }
+  }
+}
+
+.post-header {
+  padding-bottom: 1.875rem;
+  border-bottom: 1px dashed #E1E1E1;
+  position: relative;
+  @include media-breakpoint-up(md) {
+    padding-bottom: 2.5rem;
+  }
+  > div {
+    max-width: 46.25rem;
+    margin:  {
+      left: auto;
+      right: auto;
+    }
+  }
+  h1 {
+    font-size: 2.125rem;
+    font-weight: 600;
+    line-height: 1.4285;
+    @include media-breakpoint-up(md) {
+      font-size: 2.625rem;
+    }
+  }
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.777;
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
+  }
+  a {
+    color: #017DCF;
+    text-decoration: none;
+  }
+}
+
+.post-header__deco {
+  position: absolute;
+  right: -4.3rem;
+  bottom: 1.875rem;
+}
+
+.post-content {
+  max-width: 28.125rem;
+  @include media-breakpoint-up(md) {
+    max-width: 46.25rem;
+  }
+  margin:  {
+    left: auto;
+    right: auto;
+  }
+  padding: {
+    top: 2.5rem;
+    bottom: 1.8125rem;
+  }
+  a {
+    color: #017DCF;
+    text-decoration: none;
+  }
+  h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.46;
+    margin-bottom: 1.875rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1.625rem;
+    }
+  }
+  p {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.78;
+    margin-bottom: 1.875rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
+  }
+  figure {
+    margin-bottom: 1.875rem;
+  }
+  figcaption {
+    font-size: 0.875rem;
+    line-height: 1.1428;
+    margin-top: 1.25rem;
+  }
+  > img {
+    margin-bottom: 1.25rem;
+  }
+}
+
+.post-social {
+  border-top: 1px solid #E1E1E1;
+  padding: {
+    top: 1.875rem;
+    bottom: 1.875rem;
+  }
+  > p {
+    font-size: 1rem;
+  }
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    > li {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.post-related {
+  padding-top: 2.375rem;
+  @include media-breakpoint-up(md) {
+    padding-top: 4.375rem;
+  }
+  > h2 {
+    font-size: 2rem;
+    line-height: 1.1875;
+  }
+}

@@ -1,0 +1,115 @@
+.contact-content {
+  padding: {
+    top: 4.6875rem;
+    bottom: 3.0625rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: {
+      top: 8.125rem;
+      bottom: 6.0625rem;
+    }
+  }
+}
+
+.contact-article {
+  max-width: 25rem;
+  margin: {
+    left: auto;
+    right: auto;
+    bottom: 1.875rem;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: none;
+    margin: {
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  h2 {
+    font-size: 2.125rem;
+    line-height: 1.4285;
+    margin-bottom: 1.25rem;
+    @include media-breakpoint-up(md) {
+      font-size: 2.625rem;
+    }
+  }
+  p {
+    color: #8A8A8A;
+    font-size: 1rem;
+    line-height: 1.777;
+    margin-bottom: 1.25rem;
+    @include media-breakpoint-up(md) {
+      font-size: 1.125rem;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.contact-details {
+  max-width: 25rem;
+  margin: {
+    left: auto;
+    right: auto;
+    bottom: 3.0625rem;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: none;
+    left: 0;
+    right: 0;
+    margin-bottom: 4.0625rem;
+  }
+}
+
+.contact-form {
+  border: 1px solid #D0D0D0;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  max-width: 25rem;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: none;
+    margin: {
+      left: 0;
+      right: 0;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 1.875rem;
+  }
+  input {
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #A2A4AA;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #A2A4AA;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #A2A4AA;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #A2A4AA;
+    }
+  }
+  textarea {
+    resize: none;
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #A2A4AA;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #A2A4AA;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #A2A4AA;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #A2A4AA;
+    }
+  }
+}
